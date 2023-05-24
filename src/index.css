@@ -1,0 +1,147 @@
+body {
+  font-family: 'Work Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.Navbar {
+  justify-content: space-between;
+}
+
+.initials {
+  display: flex;
+  justify-content: center;
+  margin: 50px auto 30px auto;
+  letter-spacing: 1px;
+  font-weight: 300;
+  /* border-bottom: 1px solid black; */
+  /* width: fit-content; */
+  /* margin: 30px auto; */
+  border-bottom: 1px solid black;
+  width: fit-content;
+  height: 35px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s ease;
+}
+
+.initials:hover {
+  font-weight: 400;
+  transform: scale(1.05);
+}
+
+.list {
+  font-weight: 300;
+  display: flex;
+  /* padding-right: 20px; */
+  letter-spacing: 1px;
+  font-size: 1.25em;
+  justify-content: center;
+  /* border: 1px solid black; */
+  height: 50px;
+  width: fit-content;
+  /* align-items: center; */
+  margin: auto;
+}
+
+.noLink,
+.noLink a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+.link {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+.list>button {
+  margin: 0px 30px 0px 0px;
+  border: none;
+  background: none;
+  color: inherit;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  padding: 0px 10px;
+  transition: transform 0.1s ease;
+
+}
+
+.list>button:hover {
+  font-weight: 400;
+  /* box-shadow-bottom: 0px 2px 4px rgba(0, 0, 0, 0.3) 
+  */
+  /* text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+   */
+  transform: scale(1.1);
+  /* text-decoration: underline; */
+}
+
+.selected {
+  filter: brightness(0.3)
+}
+
+.photos img {
+  display: inline;
+  justify-content: center;
+  width: 30%;
+  margin: calc(10%/6);
+  transition: filter 0.2s ease;
+}
+
+.photos img:hover {
+  filter: brightness(1.1);
+}
+
+.home,
+.bio {
+  font-weight: 500;
+  display: flex;
+  letter-spacing: 1px;
+  font-size: 1.25em;
+  z-index: 1;
+}
+
+.home-img {
+  width: 25%;
+  position: absolute;
+  top: 55%;
+  left: 53%;
+  transform: translate(-0%, -50%);
+  z-index: -1;
+}
+
+.photo-buttons {
+  border: none;
+  background: none;
+}
+
+.home-v1 {
+  transform: translate(-0%, -50%);
+  margin: 200px auto 0 20%;
+}
+
+.home-v2 {
+  transform: translate(-0%, -50%);
+  margin: 50px auto 0 20%;
+}
+
+.home-v3 {
+  transform: translate(-0%, -50%);
+  margin: 50px auto 0 20%;
+}
+
+.home-v4 {
+  transform: translate(-0%, -50%);
+  margin: 50px auto 0 20%;
+}
+
+.bio-container {
+  width: 750px;
+}
+
+.bio {
+  transform: translate(-0%, -50%);
+  margin: 100px auto 100px 20%;
+}
