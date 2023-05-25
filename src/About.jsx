@@ -8,7 +8,7 @@ export default function About() {
             </h2>
 
             <h2>
-                My first personal project from a growing passion for web design.
+                My first personal project from a growing passion for web design. Website is made using CSS, HTML, ReactJS.
             </h2>
         </p>
     )

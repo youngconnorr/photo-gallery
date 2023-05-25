@@ -5,6 +5,7 @@ import Portfolio from './MainPortfolio'
 import Home from './Home'
 import Bio from './Bio'
 import Contacts from './Contacts'
+import About from './About'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
@@ -16,7 +17,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/biography" element={<Bio />} />
-        {/* <Route path="/about" element={<About />} /> */}
+        <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contacts />} />
       </Routes>
     </BrowserRouter>

@@ -11,7 +11,7 @@ export default function Portfolio() {
                     <img src="/photos/accessories_laid_out.jpg" alt="" />
                 </a>
                 <a href="">
-                    <img src="/photos/_IGP1752.jpg" alt="" />
+                    <img src="/photos/accessories_laid_out.jpg" alt="" />
                 </a>
                 <a href="">
                     <img src="/photos/colorful_closet.jpg" alt="" />

@@ -16,7 +16,8 @@ export default function Navbar() {
 
 
                         <button> <Link to='/contact' className='link'>contacts</Link></button>
-                        <button className='link'>about</button>
+
+                        <button> <Link to='/about' className='link'>about</Link></button>
                     </ul>
                 </div>
             </nav>

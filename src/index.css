@@ -105,13 +105,13 @@ body {
   border: none;
   background: none;
   transform: translate(840px, 320px);
-  transition: background-color 0.5s ease;
+  transition: transform 0.5s ease;
+  /* transform: scaleX(0); */
 }
 
-.photo-buttons:hover {
-  background-color: black;
-
-}
+/* .photo-buttons:hover {
+  border-bottom: 1px solid black;
+} */
 
 .photo-scroll-button-v1 {
   transform: translate(-800px 0px);
@@ -121,6 +121,18 @@ body {
 .photo-scroll-button-v2 {
   transform: translate(-800px 0px);
 }
+
+.img-fade {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.img-fade.active {
+  opacity: 1;
+}
+
+
 
 .home-v1 {
   transform: translate(-0%, -50%);
