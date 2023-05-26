@@ -159,6 +159,13 @@ body {
 }
 
 .bio {
-  transform: translate(-0%, -50%);
-  margin: 100px auto 100px 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* transform: translate(-0%, -50%); */
+  /* margin: 70px auto 0px 20%; */
+  padding-left: 20%;
+  margin-top: 70px;
+  margin-bottom: 100px;
+  font-weight: 400;
 }

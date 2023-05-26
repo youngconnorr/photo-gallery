@@ -7,10 +7,7 @@ export default function Bio() {
                 Growing up in a family of photographers, I was fascinated by the idea of making someone have a sense of emotion when seeing photos.
             </h2>
             <h2 className='bio'>
-                Striving to always look to improve my photography and my framing skills, I always wanted to create a catalogue of my progress.
-            </h2>
-            <h2 className='bio'>
-                Having this passion for creation, design, and progression. I dove deep into teaching myself web development.
+                Therefore, I always strived to look to improve my photography and my framing skills, and with that, creating catalogue of my progress has always been an interest of mine.
             </h2>
             <h2 className='bio'>
                 Through learning HTML, CSS, and ReactJS, I have now created a website that can capture the simplicity of my photography while keeping the complexity of the emotions in frame.
