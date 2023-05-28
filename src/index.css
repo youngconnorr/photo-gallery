@@ -4,6 +4,11 @@ body {
   padding: 0;
 }
 
+button {
+  border: none;
+  background: none;
+}
+
 .Navbar {
   justify-content: space-between;
 }
@@ -94,8 +99,8 @@ body {
 .home-img {
   width: 25%;
   position: absolute;
-  top: 55%;
-  left: 53%;
+  padding-top: 40%;
+  padding-left: 24%;
   transform: translate(-0%, -50%);
   z-index: -1;
 }
@@ -104,22 +109,27 @@ body {
 .photo-buttons {
   border: none;
   background: none;
-  transform: translate(840px, 320px);
+  margin-right: 27%;
   transition: transform 0.5s ease;
+
+
   /* transform: scaleX(0); */
 }
 
-/* .photo-buttons:hover {
+.photo-buttons:hover {
   border-bottom: 1px solid black;
-} */
+}
 
 .photo-scroll-button-v1 {
-  transform: translate(-800px 0px);
-  margin-right: 450px;
+
+  transform: translate(2330%, 320px);
+  transform-origin: top;
+  /* margin-right: 27%; */
 }
 
 .photo-scroll-button-v2 {
-  transform: translate(-800px 0px);
+  transform: translate(2330%, 320px);
+  transform-origin: top;
 }
 
 .img-fade {
@@ -136,22 +146,22 @@ body {
 
 .home-v1 {
   transform: translate(-0%, -50%);
-  margin: 200px auto 0 20%;
+  margin: 10% auto 0 20%;
 }
 
 .home-v2 {
   transform: translate(-0%, -50%);
-  margin: 50px auto 0 20%;
+  margin: 2.5% auto 0 20%;
 }
 
 .home-v3 {
   transform: translate(-0%, -50%);
-  margin: 50px auto 0 20%;
+  margin: 2.5% auto 0 20%;
 }
 
 .home-v4 {
   transform: translate(-0%, -50%);
-  margin: 50px auto 0 20%;
+  margin: 2.5% auto 0 20%;
 }
 
 .bio-container {
@@ -168,4 +178,57 @@ body {
   margin-top: 70px;
   margin-bottom: 100px;
   font-weight: 400;
+}
+
+.back-of-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
+
+.panel {
+  /* background-color: beige; */
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  padding: 60px 25px;
+  width: 100%;
+  width: 1050px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: left;
+  align-items: center;
+}
+
+.contact-link-name {
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+  letter-spacing: 0.5px;
+}
+
+.contact-category {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.contact-button-a {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 15px 35px;
+  text-decoration: none;
+  color: inherit;
+  margin: 10px 0;
+  letter-spacing: 1px;
+  font-weight: 600;
+  transition: background-color 0.4s ease-in-out, color 0.3s ease;
+}
+
+.contact-button {
+  margin: 18px 0;
+}
+
+.contact-button-a:hover {
+  background-color: rgb(42, 41, 41);
+  color: grey;
 }
