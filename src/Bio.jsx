@@ -2,17 +2,22 @@ import React from 'react'
 
 export default function Bio() {
     return (
-        <p className='bio-container'>
-            <h2 className='bio'>
-                Growing up in a family of photographers, I was fascinated by the idea of making someone have a sense of emotion when seeing photos.
-            </h2>
-            <h2 className='bio'>
-                Therefore, I always strived to look to improve my photography and my framing skills, and with that, creating catalogue of my progress has always been an interest of mine.
-            </h2>
-            <h2 className='bio'>
-                Through learning HTML, CSS, and ReactJS, I have now created a website that can capture the simplicity of my photography while keeping the complexity of the emotions in frame.
+        <div className='bio-container'>
+            <p className='bio-word-container'>
+                <h2 className='bio'>
+                    Growing up in a family of photographers, I was fascinated by the idea of creating an image which sparks emotion when seen.
+                </h2>
+                <h2 className='bio'>
+                    Therefore, I always strived to look to improve my photography and my framing skills in order to create that spark, and with that, I began to create a catalogue of my progress.
+                </h2>
+                <h2 className='bio'>
+                    Now learning HTML, CSS, and ReactJS, I have now created a website that can capture the simplicity of my photography while keeping the complexity of the emotions in frame.
 
-            </h2>
-        </p >
+                </h2>
+            </p >
+            <span >
+                <img src="/photos/RandCbowness.jpg" alt="" className='bio-img' />
+            </span>
+        </div>
     )
 }

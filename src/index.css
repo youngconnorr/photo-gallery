@@ -85,9 +85,17 @@ button {
   filter: brightness(1.1);
 }
 
+.home-container {
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: 1fr 1.05fr;
+  height: 100%;
+}
+
 /* fonts */
 .home,
-.bio {
+.bio,
+.about {
   font-weight: 500;
   letter-spacing: 1px;
   font-size: 1.25em;
@@ -98,10 +106,10 @@ button {
 
 .home-img {
   width: 25%;
+  height: auto;
   position: absolute;
-  padding-top: 40%;
-  padding-left: 24%;
-  transform: translate(-0%, -50%);
+  padding-top: 1%;
+  padding-left: 2%;
   z-index: -1;
 }
 
@@ -109,27 +117,25 @@ button {
 .photo-buttons {
   border: none;
   background: none;
-  margin-right: 27%;
   transition: transform 0.5s ease;
-
-
-  /* transform: scaleX(0); */
+  z-index: -1;
 }
 
-.photo-buttons:hover {
-  border-bottom: 1px solid black;
+.photo-scroll-button-v1:hover {
+  transform: translate(-0.4em, 0em)
+}
+
+.photo-scroll-button-v2:hover {
+  transform: translate(0.4em, 0em)
 }
 
 .photo-scroll-button-v1 {
-
-  transform: translate(2330%, 320px);
-  transform-origin: top;
-  /* margin-right: 27%; */
+  margin: 15% 0 0 65%;
 }
 
 .photo-scroll-button-v2 {
-  transform: translate(2330%, 320px);
-  transform-origin: top;
+  /* transform: translate(200%, auto, 0, 55%); */
+  margin: 1.45% 0 0 1%;
 }
 
 .img-fade {
@@ -145,23 +151,23 @@ button {
 
 
 .home-v1 {
-  transform: translate(-0%, -50%);
-  margin: 10% auto 0 20%;
+  /* transform: translate(-0%, -50%); */
+  margin: 10% auto 0 60%;
 }
 
 .home-v2 {
-  transform: translate(-0%, -50%);
-  margin: 2.5% auto 0 20%;
+  /* transform: translate(-0%, -55%); */
+  margin: 3% auto 0 60%;
 }
 
 .home-v3 {
-  transform: translate(-0%, -50%);
-  margin: 2.5% auto 0 20%;
+  /* transform: translate(-0%, -60%); */
+  margin: 3% auto 0 60%;
 }
 
 .home-v4 {
-  transform: translate(-0%, -50%);
-  margin: 2.5% auto 0 20%;
+  /* transform: translate(-0%, -60%); */
+  margin: 3% auto 0 60%;
 }
 
 .bio-container {
@@ -231,4 +237,29 @@ button {
 .contact-button-a:hover {
   background-color: rgb(42, 41, 41);
   color: grey;
+}
+
+
+.bio-container {
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+}
+
+.bio-word-container {
+  margin-left: 40%;
+  width: 200%;
+}
+
+.bio-img {
+  margin-top: 10%;
+  margin-left: 170%;
+  width: 120%;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
 }

@@ -4,11 +4,8 @@ export default function Portfolio() {
     return (
         <>
             <div className='photos'>
-                <a href="https://instagram.com" target='_blank'>
+                <a href="" target='_blank'>
                     <img src="/photos/_IGP1581.jpg" alt="" />
-                </a>
-                <a href="">
-                    <img src="/photos/accessories_laid_out.jpg" alt="" />
                 </a>
                 <a href="">
                     <img src="/photos/accessories_laid_out.jpg" alt="" />
@@ -26,12 +23,15 @@ export default function Portfolio() {
                     <img src="/photos/bedroomSunset.jpg" alt="" />
                 </a>
                 <a href="">
-                    <img src="/photos/bowness_sunset.jpg" alt="" />
+                    <img src="/photos/moon.jpg" alt="" />
                 </a>
                 <a href="">
-                    <img src="/photos/bowness_sunset2.jpeg" alt="" />
+                    <img src="/photos/sunsetwindow.jpg" alt="" />
                 </a>
-            </div>
+                <a href="">
+                    <img src="/photos/42032.jpeg" alt="" />
+                </a>
+            </div >
         </>
     )
 }   
