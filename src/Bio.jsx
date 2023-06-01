@@ -8,10 +8,10 @@ export default function Bio() {
                     Growing up in a family of photographers, I was fascinated by the idea of creating an image which sparks emotion when seen.
                 </h2>
                 <h2 className='bio'>
-                    Therefore, I always strived to look to improve my photography and my framing skills in order to create that spark, and with that, I began to create a catalogue of my progress.
+                    Therefore, I always strive to look to improve my photography and my framing skills in order to create that spark, and with that, I began creating a catalogue of my progress.
                 </h2>
                 <h2 className='bio'>
-                    Now learning HTML, CSS, and ReactJS, I have now created a website that can capture the simplicity of my photography while keeping the complexity of the emotions in frame.
+                    Now learning HTML, CSS, and ReactJS, I am able to create a website that can capture the simplicity of my photography while keeping the complexity of the emotions in frame.
 
                 </h2>
             </p >

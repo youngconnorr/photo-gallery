@@ -122,11 +122,13 @@ button {
 }
 
 .photo-scroll-button-v1:hover {
-  transform: translate(-0.4em, 0em)
+  transform: translate(-0.4em, 0em);
+  cursor: pointer;
 }
 
 .photo-scroll-button-v2:hover {
-  transform: translate(0.4em, 0em)
+  transform: translate(0.4em, 0em);
+  cursor: pointer;
 }
 
 .photo-scroll-button-v1 {
@@ -213,6 +215,10 @@ button {
   letter-spacing: 0.5px;
 }
 
+.contact-email:hover {
+  text-decoration: underline;
+}
+
 .contact-category {
   font-weight: 500;
   font-size: 20px;
@@ -262,4 +268,28 @@ button {
   display: flex;
   justify-content: center;
   margin-top: 5%;
+}
+
+.own-photo-page {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+}
+
+.own-photo {
+  width: 100%;
+  padding: 10px 0 0 20px;
+}
+
+.own-photo-text {
+  margin-left: 10%;
+  width: 50%;
+}
+
+.date-of-photo {
+  color: rgb(110, 108, 108);
+}
+
+.text-of-photo {
+  line-height: 200%;
+  font-weight: 500;
 }

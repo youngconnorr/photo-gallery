@@ -1,11 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Portfolio() {
     return (
         <>
             <div className='photos'>
-                <a href="" target='_blank'>
-                    <img src="/photos/_IGP1581.jpg" alt="" />
+                <a href="" target='_blank' className='photo-effect'>
+                    <Link to='/photo-1'><img src="/photos/_IGP1581.jpg" alt="" /></Link>
                 </a>
                 <a href="">
                     <img src="/photos/accessories_laid_out.jpg" alt="" />

@@ -15,7 +15,7 @@ export default function Contacts() {
                 <p>
                     <h2 className='contact-link-name '>Email</h2>
 
-                    <p>Youngconnor2004@gmail.com</p>
+                    <p className='contact-email'>Youngconnor2004@gmail.com</p>
                 </p>
             </div>
         </div>
