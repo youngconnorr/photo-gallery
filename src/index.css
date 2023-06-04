@@ -78,11 +78,11 @@ button {
   justify-content: center;
   width: 30%;
   margin: calc(10%/6);
-  transition: filter 0.2s ease;
+  transition: filter 0.1s ease;
 }
 
 .photos img:hover {
-  filter: brightness(1.1);
+  filter: brightness(0.8);
 }
 
 .home-container {
@@ -183,8 +183,8 @@ button {
   /* transform: translate(-0%, -50%); */
   /* margin: 70px auto 0px 20%; */
   padding-left: 20%;
-  margin-top: 70px;
-  margin-bottom: 100px;
+  margin-top: 80px;
+  margin-bottom: 70px;
   font-weight: 400;
 }
 
