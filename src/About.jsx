@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
     return (
-        <p>
+        <p className='about-container'>
             <h2 className='about'>
                 A photography portfolio of my work spanning from 2019 to the present day.
             </h2>

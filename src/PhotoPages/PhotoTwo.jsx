@@ -8,10 +8,10 @@ export default function PhotoTwo() {
             </div>
             <span className='own-photo-text'>
                 <p className='date-of-photo'>
-                    12/26/21
+                    12/28/20
                 </p>
                 <p className='text-of-photo'>
-                    Calgary, Alberta
+                    Layered aspects of fasion
                 </p>
             </span>
         </div>

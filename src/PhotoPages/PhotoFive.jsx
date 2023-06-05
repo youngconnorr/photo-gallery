@@ -8,10 +8,10 @@ export default function PhotoFive() {
             </div>
             <span className='own-photo-text'>
                 <p className='date-of-photo'>
-                    12/26/21
+                    12/20/20
                 </p>
                 <p className='text-of-photo'>
-                    Calgary, Alberta
+                    Organized mess
                 </p>
             </span>
         </div>

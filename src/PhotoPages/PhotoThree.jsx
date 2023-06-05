@@ -8,10 +8,10 @@ export default function PhotoThree() {
             </div>
             <span className='own-photo-text'>
                 <p className='date-of-photo'>
-                    12/26/21
+                    1/6/21
                 </p>
                 <p className='text-of-photo'>
-                    Calgary, Alberta
+                    Warm room tones
                 </p>
             </span>
         </div>

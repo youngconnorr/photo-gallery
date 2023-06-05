@@ -8,10 +8,10 @@ export default function PhotoNine() {
             </div>
             <span className='own-photo-text'>
                 <p className='date-of-photo'>
-                    12/26/21
+                    5/9/21
                 </p>
                 <p className='text-of-photo'>
-                    Calgary, Alberta
+                    Urban Rooftops
                 </p>
             </span>
         </div>

@@ -8,10 +8,10 @@ export default function PhotoFour() {
             </div>
             <span className='own-photo-text'>
                 <p className='date-of-photo'>
-                    12/26/21
+                    4/13/23
                 </p>
                 <p className='text-of-photo'>
-                    Calgary, Alberta
+                    Small scales of life
                 </p>
             </span>
         </div>

@@ -28,8 +28,10 @@ const CircularPhotoArray = () => {
     return (
         <main className='home-container'>
             <p className='home-content'>
-                <h2 className='article home home-v1'>Creating inspiration  </h2>
-                <h2 className='article home home-v2'> Framing fashion   </h2>
+                <div className='first-part-of-home-content'>
+                    <h2 className='article home home-v1'>Creating inspiration  </h2>
+                    <h2 className='article home home-v2'> Framing fashion   </h2>
+                </div>
                 <h2 className='article home home-v3'>&#38;</h2>
                 <h2 className='article home home-v4'> Urban photography </h2>
                 <button onClick={goToPrevImage} className='photo-buttons photo-scroll-button-v1'><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M20 .755l-14.374 11.245 14.374 11.219-.619.781-15.381-12 15.391-12 .609.755z" /></svg></button>
