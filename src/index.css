@@ -136,7 +136,6 @@ button {
 }
 
 .photo-scroll-button-v2 {
-  /* transform: translate(200%, auto, 0, 55%); */
   margin: 1.45% 0 0 1%;
 }
 
@@ -153,22 +152,35 @@ button {
 
 
 .home-v1 {
-  /* transform: translate(-0%, -50%); */
   margin: 10% auto 0 60%;
 }
 
+/* .home {
+  width: 26%
+}
+
+.home:after {
+  content: '';
+  width: 0px;
+  height: 2px;
+  display: block;
+  background: black;
+  transition: 300ms;
+}
+
+.home:hover:after {
+  width: 100%;
+} */
+
 .home-v2 {
-  /* transform: translate(-0%, -55%); */
   margin: 3% auto 0 60%;
 }
 
 .home-v3 {
-  /* transform: translate(-0%, -60%); */
   margin: 3% auto 0 60%;
 }
 
 .home-v4 {
-  /* transform: translate(-0%, -60%); */
   margin: 3% auto 0 60%;
 }
 
@@ -208,8 +220,6 @@ button {
 }
 
 .panel {
-  /* background-color: beige; */
-  /* border: 1px solid black; */
   border-radius: 10px;
   padding: 60px 25px;
   width: 100%;
@@ -325,18 +335,15 @@ button {
   }
 
   .home-v2 {
-    /* transform: translate(-0%, -55%); */
     margin-left: 62%;
     margin-top: -2%;
   }
 
   .home-v3 {
-    /* transform: translate(-0%, -60%); */
     margin: 3% auto 0 78.5%;
   }
 
   .home-v4 {
-    /* transform: translate(-0%, -60%); */
     margin: 3% auto 0 59%;
   }
 

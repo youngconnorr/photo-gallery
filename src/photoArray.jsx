@@ -8,6 +8,8 @@ const CircularPhotoArray = () => {
         "/photos/42152.jpeg",
         "/photos/42108.jpeg",
         "/photos/RandCbowness.jpg",
+        "/photos/IMG_5810.jpg",
+        "/photos/42144.jpeg"
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -29,8 +31,8 @@ const CircularPhotoArray = () => {
         <main className='home-container'>
             <p className='home-content'>
                 <div className='first-part-of-home-content'>
-                    <h2 className='article home home-v1'>Creating inspiration  </h2>
-                    <h2 className='article home home-v2'> Framing fashion   </h2>
+                    <h2 className='article home home-v1'>Creating inspiration</h2>
+                    <h2 className='article home home-v2'> Framing fashion</h2>
                 </div>
                 <h2 className='article home home-v3'>&#38;</h2>
                 <h2 className='article home home-v4'> Urban photography </h2>
