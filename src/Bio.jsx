@@ -11,7 +11,7 @@ export default function Bio() {
                     Motivated by this passion, I am constantly driven to improve my photography and framing skills, always seeking to capture that elusive spark. As a result, I began documenting my progress by creating a catalog to showcase my growth.
                 </h2>
                 <h2 className='bio'>
-                    As I dive into the world of HTML, CSS, and ReactJS, I am excited to explore new possibilities. These tools allow me to build a website that beautifully showcases the simplicity of my photography while preserving the intricate emotions within each frame.
+                    As I dive into the world of HTML, CSS, and ReactJS, I am excited to explore new possibilities. These tools allow me to build a website that beautifully showcases the simplicity of my photography while preserving the intricate emotions within each photo.
 
                 </h2>
             </p >
