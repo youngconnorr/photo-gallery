@@ -1,11 +1,11 @@
 import React from 'react';
 import './index.css';
-import Navbar from './Navbar';
-import Portfolio from './MainPortfolio'
-import Home from './Home'
-import Bio from './Bio'
-import Contacts from './Contacts'
-import About from './About'
+import Navbar from './components/Navbar';
+import Portfolio from './components/MainPortfolio'
+import Home from './components/Home'
+import Bio from './components/Bio'
+import Contacts from './components/Contacts'
+import About from './components/About'
 import PhotoOne from './PhotoPages/PhotoOne'
 import PhotoTwo from './PhotoPages/PhotoTwo'
 import PhotoThree from './PhotoPages/PhotoThree'
