@@ -9,6 +9,10 @@ button {
   background: none;
 }
 
+.drawer-button {
+  display: none;
+}
+
 .navbar {
   justify-content: space-between;
 }
@@ -32,7 +36,8 @@ button {
   transform: scale(1.05);
 }
 
-.list {
+.list,
+.folder-list {
   font-weight: 300;
   display: flex;
   letter-spacing: 1px;
@@ -54,7 +59,8 @@ button {
   color: inherit;
 }
 
-.list>button {
+.list>button,
+.folder-list>button {
   margin: 0px 30px 0px 0px;
   border: none;
   background: none;
@@ -67,7 +73,8 @@ button {
 
 }
 
-.list>button:hover {
+.list>button:hover,
+.folder-list>button:hover {
   font-weight: 400;
   transform: scale(1.1);
 }
@@ -119,6 +126,7 @@ button {
   background: none;
   transition: transform 0.5s ease;
   z-index: -1;
+  font-size: large;
 }
 
 .photo-scroll-button-v1:hover {
@@ -132,11 +140,11 @@ button {
 }
 
 .photo-scroll-button-v1 {
-  margin: 15% 0 0 65%;
+  margin: 9% 0 0 65%;
 }
 
 .photo-scroll-button-v2 {
-  margin: 1.45% 0 0 1%;
+  margin: 1.45% 0 0 2%;
 }
 
 .img-fade {
@@ -154,23 +162,6 @@ button {
 .home-v1 {
   margin: 10% auto 0 60%;
 }
-
-/* .home {
-  width: 26%
-}
-
-.home:after {
-  content: '';
-  width: 0px;
-  height: 2px;
-  display: block;
-  background: black;
-  transition: 300ms;
-}
-
-.home:hover:after {
-  width: 100%;
-} */
 
 .home-v2 {
   margin: 3% auto 0 60%;
@@ -305,7 +296,69 @@ button {
   font-weight: 500;
 }
 
-@media (max-width: 576px) {}
+.hidden-links {
+  display: none;
+}
+
+
+
+@media (max-width: 576px) {
+  .list {
+    display: none;
+  }
+
+  .folder-list {
+    padding: 0;
+    margin: 9% 0 6% 7.5%;
+  }
+
+  .initials {
+    margin-left: 100%;
+  }
+
+  .initials:hover {
+    letter-spacing: 2px;
+    font-weight: 300;
+
+  }
+
+
+
+  #open.initials {
+    display: none;
+  }
+
+  #open.hidden-links {
+    display: inline;
+  }
+
+  .drawer-button {
+    display: flex;
+    margin-top: 10.5%;
+    cursor: pointer;
+  }
+
+  .home-img {
+    width: 61% !important;
+    margin-left: -12%;
+  }
+
+  .home-v2 {
+    margin: -6% auto 0 51% !important;
+  }
+
+  .home-v3 {
+    margin: 0 auto 0 73% !important;
+  }
+
+  .home-v4 {
+    margin: 0 auto 0 46% !important;
+  }
+
+  .photo-scroll-button-v1 {
+    margin: 4% 0 0 64% !important;
+  }
+}
 
 @media (max-width: 768px) {
   .navbar {

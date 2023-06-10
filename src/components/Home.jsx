@@ -7,7 +7,8 @@ import Photo4 from "../assets/42108.jpeg"
 import Photo5 from "../assets/RandCbowness.jpg"
 import Photo6 from "../assets/IMG_5810.jpg"
 import Photo7 from "../assets/42144.jpeg"
-
+import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 const Home = () => {
     const images = [
         Photo1,
@@ -45,11 +46,11 @@ const Home = () => {
                 <h2 className='article home home-v4'> Urban photography </h2>
 
                 <button onClick={goToPrevImage} className='photo-buttons photo-scroll-button-v1'>
-                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M20 .755l-14.374 11.245 14.374 11.219-.619.781-15.381-12 15.391-12 .609.755z" /></svg>
+                    <ArrowBackIosNewIcon />
                 </button>
 
                 <button onClick={goToNextImage} className='photo-buttons photo-scroll-button-v2'>
-                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M4 .755l14.374 11.245-14.374 11.219.619.781 15.381-12-15.391-12-.609.755z" /></svg>
+                    <ArrowForwardIosIcon />
                 </button>
 
             </p>

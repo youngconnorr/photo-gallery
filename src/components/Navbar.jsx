@@ -1,20 +1,35 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { useState } from 'react'
+import MenuIcon from '@mui/icons-material/Menu';
+
 export default function Navbar() {
 
-    const [isOpen, setIsOpen] = useState(false)
+    const [openLinks, setOpenLinks] = useState(false)
 
     const toggleNavbar = () => {
-        setIsOpen(!isOpen)
+        setOpenLinks(!openLinks)
     }
 
     return (
         <header>
             <nav className='navbar'>
-                <h1 className='initials noLink'> <Link to='/'>Connor Young</Link>
-                </h1>
+                <div>
+                    <div className='hidden-links' id={openLinks ? 'open' : 'close'}>
+                        <ul className='folder-list'>
+                            <button><Link to='/portfolio' className='link '>portfolio</Link></button>
 
+
+                            <button > <Link to='/biography' className='link '>bio</Link></button>
+
+
+                            <button> <Link to='/contact' className='link'>contacts</Link></button>
+
+                            <button> <Link to='/about' className='link'>about</Link></button>
+                        </ul>
+                    </div>
+                    <h1 className='initials noLink' id={openLinks ? 'open' : 'closed'}> <Link to='/'>Connor Young</Link>
+                    </h1>
+                </div>
                 <div className='topBar'>
                     <ul className='list'>
                         <button><Link to='/portfolio' className='link'>portfolio</Link></button>
@@ -27,9 +42,12 @@ export default function Navbar() {
 
                         <button> <Link to='/about' className='link'>about</Link></button>
                     </ul>
-                    <button className='navbar-toggle' onClick={toggleNavbar}></button>
+
                 </div>
+                <button className='drawer-button' onClick={toggleNavbar}>
+                    <MenuIcon />
+                </button>
             </nav>
-        </header>
+        </header >
     )
 }
