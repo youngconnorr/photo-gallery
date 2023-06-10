@@ -328,12 +328,11 @@ button {
 
 
   .initials {
-    margin-left: 100%;
+    font-size: 20px;
   }
 
   .initials:hover {
-    letter-spacing: 2px;
-    font-weight: 300;
+    font-weight: 500;
 
   }
 
@@ -349,7 +348,7 @@ button {
 
   .drawer-button {
     display: flex;
-    margin-top: 10.5%;
+    margin-top: 10%;
     cursor: pointer;
   }
 
@@ -388,6 +387,9 @@ button {
     margin-right: 1%;
   }
 
+  .initials {
+    margin-left: 9%;
+  }
 
   .first-part-of-home-content {
     display: flex;

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import BioPhoto from "../assets/RandCbowness.jpg"
 export default function Bio() {
     return (
         <div className='bio-container'>
@@ -16,7 +16,7 @@ export default function Bio() {
                 </h2>
             </p >
             <span >
-                <img src="/photos/RandCbowness.jpg" alt="" className='bio-img' />
+                <img src={BioPhoto} alt="" className='bio-img' />
             </span>
         </div>
     )
