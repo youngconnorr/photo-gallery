@@ -9,6 +9,14 @@ button {
   background: none;
 }
 
+.menuItem {
+  border-radius: 15px;
+  width: 300px;
+  height: 350px;
+  margin: 20px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
 .drawer-button {
   display: none;
 }
@@ -79,12 +87,17 @@ button {
   transform: scale(1.1);
 }
 
+.photos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: calc(10%/6);
+  margin: calc(10%/6);
+}
 
 .photos img {
-  display: inline;
-  justify-content: center;
-  width: 30%;
-  margin: calc(10%/6);
+  width: 100%;
+
+
   transition: filter 0.2s ease;
 }
 
@@ -312,6 +325,8 @@ button {
     margin: 9% 0 6% 7.5%;
   }
 
+
+
   .initials {
     margin-left: 100%;
   }
@@ -417,11 +432,11 @@ button {
     margin: 1.45% 0 0 1%;
   }
 
-  .photos img {
+  .photos {
     display: block;
     justify-content: center;
-    width: 96%;
-    margin: calc(10%/6);
+    width: 97%;
+    /* margin: calc(10%/6); */
     transition: filter 0.1s ease;
   }
 
