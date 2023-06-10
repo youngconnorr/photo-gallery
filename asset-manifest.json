@@ -1,13 +1,29 @@
 {
   "files": {
-    "main.css": "/photo-gallery/static/css/main.a0e1db30.css",
-    "main.js": "/photo-gallery/static/js/main.af4365a4.js",
+    "main.css": "/photo-gallery/static/css/main.16780950.css",
+    "main.js": "/photo-gallery/static/js/main.d30c8dd5.js",
+    "static/media/accessories_laid_out.JPG": "/photo-gallery/static/media/accessories_laid_out.4e309ea066f34d4b73d2.JPG",
+    "static/media/colorful_closet.JPG": "/photo-gallery/static/media/colorful_closet.4366ab9d510a4acaab2c.JPG",
+    "static/media/_IGP1761.JPG": "/photo-gallery/static/media/_IGP1761.819bc79579d356556317.JPG",
+    "static/media/_IGP1581.JPG": "/photo-gallery/static/media/_IGP1581.91e81d5f7e117d2613b6.JPG",
+    "static/media/bnw_closet.JPG": "/photo-gallery/static/media/bnw_closet.bb22226915aa71a9d294.JPG",
+    "static/media/42144.jpeg": "/photo-gallery/static/media/42144.0f945037ddea1c9c624e.jpeg",
+    "static/media/IMG_5810.jpg": "/photo-gallery/static/media/IMG_5810.fc0508190c8407d28ab2.jpg",
+    "static/media/42032.jpeg": "/photo-gallery/static/media/42032.3fb8268e2d7a1d52d8d3.jpeg",
+    "static/media/42152.jpeg": "/photo-gallery/static/media/42152.4514331cf2e4aaaccc77.jpeg",
+    "static/media/42108.jpeg": "/photo-gallery/static/media/42108.6e58335c044f79703698.jpeg",
+    "static/media/bedroomSunset.jpg": "/photo-gallery/static/media/bedroomSunset.68fbb52d3c5b14036c40.jpg",
+    "static/media/sunsetwindow.jpg": "/photo-gallery/static/media/sunsetwindow.336f73d9b776a51204b0.jpg",
+    "static/media/moon.JPG": "/photo-gallery/static/media/moon.ec0710c13c675f455731.JPG",
+    "static/media/RandCbowness.jpg": "/photo-gallery/static/media/RandCbowness.f6075a0b6c11a3054dc2.jpg",
+    "static/media/stel_curt.jpg": "/photo-gallery/static/media/stel_curt.2b81744f35591c355abb.jpg",
+    "static/media/bowness_sunset2.jpeg": "/photo-gallery/static/media/bowness_sunset2.950864fd8f8547dea712.jpeg",
     "index.html": "/photo-gallery/index.html",
-    "main.a0e1db30.css.map": "/photo-gallery/static/css/main.a0e1db30.css.map",
-    "main.af4365a4.js.map": "/photo-gallery/static/js/main.af4365a4.js.map"
+    "main.16780950.css.map": "/photo-gallery/static/css/main.16780950.css.map",
+    "main.d30c8dd5.js.map": "/photo-gallery/static/js/main.d30c8dd5.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0e1db30.css",
-    "static/js/main.af4365a4.js"
+    "static/css/main.16780950.css",
+    "static/js/main.d30c8dd5.js"
   ]
 }
