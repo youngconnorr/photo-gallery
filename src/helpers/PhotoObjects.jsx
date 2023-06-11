@@ -1,7 +1,7 @@
 import PhotoOne from "../assets/IGP1581.JPG"
 import PhotoTwo from "../assets/accessories_laid_out.JPG"
 import PhotoThree from "../assets/colorful_closet.JPG"
-import PhotoFour from "../assets/IGP1752.JPG"
+import PhotoFour from "../assets/IGP1761.JPG"
 import PhotoFive from "../assets/bnw_closet.JPG"
 import PhotoSix from "../assets/bedroomSunset.jpg"
 import PhotoSeven from "../assets/moon.JPG"
@@ -31,7 +31,7 @@ export const PhotoObjects = [
         id: 4,
         image: PhotoFour,
         date: "4/13/23",
-        descript: "Neutral Closet",
+        descript: "Minimal perspective",
     },
     {
         id: 5,
