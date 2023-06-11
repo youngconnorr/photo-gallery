@@ -8,7 +8,7 @@ import Contacts from './components/Contacts'
 import About from './components/About'
 import PhotoDetails from './components/PhotoDetails'
 
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 
 
 function App() {
@@ -16,6 +16,8 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
+        <Route path='/photo-gallery/'
+          element={<Navigate to='/' replace />} />
         <Route path='/' element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/biography" element={<Bio />} />
