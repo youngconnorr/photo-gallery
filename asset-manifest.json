@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/photo-gallery/static/css/main.3a43dd1c.css",
-    "main.js": "/photo-gallery/static/js/main.c41f2c16.js",
+    "main.css": "/photo-gallery/static/css/main.89e9beb8.css",
+    "main.js": "/photo-gallery/static/js/main.852a5ab3.js",
     "static/media/accessories_laid_out.JPG": "/photo-gallery/static/media/accessories_laid_out.4e309ea066f34d4b73d2.JPG",
     "static/media/colorful_closet.JPG": "/photo-gallery/static/media/colorful_closet.4366ab9d510a4acaab2c.JPG",
     "static/media/IGP1761.JPG": "/photo-gallery/static/media/IGP1761.819bc79579d356556317.JPG",
@@ -19,11 +19,11 @@
     "static/media/stel_curt.jpg": "/photo-gallery/static/media/stel_curt.2b81744f35591c355abb.jpg",
     "static/media/bowness_sunset2.jpeg": "/photo-gallery/static/media/bowness_sunset2.950864fd8f8547dea712.jpeg",
     "index.html": "/photo-gallery/index.html",
-    "main.3a43dd1c.css.map": "/photo-gallery/static/css/main.3a43dd1c.css.map",
-    "main.c41f2c16.js.map": "/photo-gallery/static/js/main.c41f2c16.js.map"
+    "main.89e9beb8.css.map": "/photo-gallery/static/css/main.89e9beb8.css.map",
+    "main.852a5ab3.js.map": "/photo-gallery/static/js/main.852a5ab3.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a43dd1c.css",
-    "static/js/main.c41f2c16.js"
+    "static/css/main.89e9beb8.css",
+    "static/js/main.852a5ab3.js"
   ]
 }
