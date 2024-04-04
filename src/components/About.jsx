@@ -1,5 +1,6 @@
 import React from 'react'
 
+//about page
 export default function About() {
     return (
         <p className='about-container'>
