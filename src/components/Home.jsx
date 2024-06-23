@@ -9,31 +9,28 @@ import Photo6 from "../assets/IMG_5810.jpg"
 import Photo7 from "../assets/42144.jpeg"
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+
 const Home = () => {
+
     const images = [
         Photo1,
-        Photo2,
+        Photo2, 
         Photo3,
         Photo4,
         Photo5,
         Photo6,
         Photo7,
-    ];
+    ]
 
     const [currentIndex, setCurrentIndex] = useState(0);
 
-    const showImage = (index) => {
-        setCurrentIndex(index)
-    }
     const goToNextImage = () => {
-        setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    };
+        setCurrentIndex((prevIndex) => prevIndex === images.length - 1 ? prevIndex = 0 : prevIndex + 1);
+    }
 
     const goToPrevImage = () => {
-        setCurrentIndex((prevIndex) =>
-            prevIndex === 0 ? images.length - 1 : prevIndex - 1
-        );
-    };
+        setCurrentIndex((prevIndex) => prevIndex === 0 ? images.length - 1 : prevIndex - 1);
+    }
 
     return (
         <main className='home-container'>
@@ -58,7 +55,7 @@ const Home = () => {
                 {images.map((image, index) => (
                     <img
                         src={image}
-                        alt="Gallery Image"
+                        alt="Gallery"
                         className={`home-img img-fade ${currentIndex === index ? 'active' : ''}`}
                         key={index}
                     />

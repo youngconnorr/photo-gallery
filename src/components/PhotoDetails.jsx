@@ -4,7 +4,7 @@ import { PhotoObjects } from '../helpers/PhotoObjects'
 
 export default function PhotoDetails() {
     const { id } = useParams();
-    const photo = PhotoObjects.find((photo) => photo.id === parseInt(id))
+    const photo = PhotoObjects.find((photo) => photo.id === parseInt(id));
 
     return (
         <div className='own-photo-page'>
@@ -21,8 +21,5 @@ export default function PhotoDetails() {
             </span>
         </div>
     )
-
-
-
 
 }
