@@ -1,4 +1,4 @@
-# Photo-gallery Project 🖼️
+# Youngs Portfolio
 
 A website that displays my life journey through photography. My purpose for this website was for me to see my progress in shooting and display it to my friends and family. A key theme I kept in mind when developing this project was white space. White space allows the colors and composition of photos to jump out at you! Thanks for taking a look :)
 
