@@ -21,7 +21,7 @@ export default function Contacts() {
           <h2 className="contact-link-name ">LinkedIn</h2>
           <button className="contact-button">
             <a
-              href="https://www.linkedin.com/in/connor-young-9692aa270/"
+              href="https://www.linkedin.com/in/conryoung"
               className="contact-button-a"
               target="_blank"
               rel="noreferrer"
@@ -32,8 +32,16 @@ export default function Contacts() {
         </p>
         <p>
           <h2 className="contact-link-name ">Email</h2>
-
-          <p className="contact-email">Youngconnor2004@gmail.com</p>
+          <button className="contact-button" href="mailto:conryoung4@gmail.com">
+            <a
+              href="mailto:conryoung4@gmail.com"
+              className="contact-button-a"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Connect
+            </a>
+          </button>
         </p>
       </div>
     </div>

@@ -1,5 +1,5 @@
 body {
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -67,8 +67,8 @@ button {
   color: inherit;
 }
 
-.list>button,
-.folder-list>button {
+.list > button,
+.folder-list > button {
   margin: 0px 30px 0px 0px;
   border: none;
   background: none;
@@ -78,11 +78,10 @@ button {
   cursor: pointer;
   padding: 0px 10px;
   transition: transform 0.1s ease;
-
 }
 
-.list>button:hover,
-.folder-list>button:hover {
+.list > button:hover,
+.folder-list > button:hover {
   font-weight: 400;
   transform: scale(1.1);
 }
@@ -90,13 +89,12 @@ button {
 .photos {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: calc(10%/6);
-  margin: calc(10%/6);
+  gap: calc(10% / 6);
+  margin: calc(10% / 6);
 }
 
 .photos img {
   width: 100%;
-
 
   transition: filter 0.2s ease;
 }
@@ -121,7 +119,6 @@ button {
   font-size: 1.25em;
   z-index: 1;
   flex-grow: 1;
-
 }
 
 .home-img {
@@ -132,7 +129,6 @@ button {
   padding-left: 2%;
   z-index: -1;
 }
-
 
 .photo-buttons {
   border: none;
@@ -170,8 +166,6 @@ button {
   opacity: 1;
 }
 
-
-
 .home-v1 {
   margin: 10% auto 0 60%;
 }
@@ -194,8 +188,7 @@ button {
 
 .bio {
   padding-left: 20%;
-  margin-top: 10%;
-  margin-bottom: 10%;
+  /* margin-top: 10%; */
   font-weight: 400;
 }
 
@@ -220,14 +213,12 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 50vh;
 }
 
 .panel {
   border-radius: 10px;
-  padding: 60px 25px;
+  /* padding: 60px 25px; */
   width: 100%;
-  width: 1050px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -270,10 +261,6 @@ button {
   background-color: rgb(42, 41, 41);
   color: grey;
 }
-
-
-
-
 
 .about-container {
   width: 50%;
@@ -335,7 +322,6 @@ button {
   .bio-container {
     width: 67%;
   }
-
 }
 
 @media (max-width: 768px) {
@@ -451,8 +437,6 @@ button {
     margin-left: 2%;
     margin-top: -1%;
   }
-
-
 }
 
 @media (max-width: 576px) {
@@ -465,18 +449,13 @@ button {
     margin: 9% 0 6% 7.5%;
   }
 
-
-
   .initials {
     font-size: 20px;
   }
 
   .initials:hover {
     font-weight: 500;
-
   }
-
-
 
   #open.initials {
     display: none;
@@ -514,7 +493,6 @@ button {
   }
 }
 
-
 @media (max-width: 390px) {
   .home-img {
     width: 61%;
@@ -539,7 +517,6 @@ button {
     margin-top: 20%;
   }
 
-
   .bio-word-container {
     margin-left: 5%;
     margin-top: -10%;
@@ -554,7 +531,6 @@ button {
     /* Two columns with equal width */
     grid-gap: 10px;
   }
-
 
   .home-v2 {
     margin: 10% auto 0 56%;
